@@ -1,4 +1,5 @@
 # docker_project
+- A kernel manages applications and hardware resources.
 
 # Docker Tutorial for Beginners
 
