@@ -101,4 +101,15 @@ Removing react-rust-postgres_db_1       ... done
 Removing network react-rust-postgres_default
 ```
 
+- 도커 이미지 삭제하기
+
+```
+// images list 쭉 보기
+docker images
+
+// 지우고자하는 id 적으로면 강제 삭제됨.
+docker rmi fd484f19954f
+```
+
+https://docs.docker.com/engine/reference/commandline/rmi/
 
