@@ -35,6 +35,9 @@ postgres=# \l
 https://browndwarf.tistory.com/51
 
 
+-postgresql 여기에 명령어 정리
+  -https://github.com/YoungHaKim7/postgresql_gy
+
 <hr>
 
 
