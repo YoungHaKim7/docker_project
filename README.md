@@ -1,6 +1,43 @@
 # docker_project
 - A kernel manages applications and hardware resources.
 
+<hr>
+
+- 도커 실행된거 확인
+
+```
+sudo docker ps   
+```
+
+- 도커 실행된 이름으로 bash 진입하기
+
+```
+sudo docker exec -it 3f9fab bash
+```
+
+- postgrsql 진입
+
+- ```psql -u root -p```
+
+```
+oot@3f9fab127ca1:/# psql -u root -p
+/usr/lib/postgresql/11/bin/psql: invalid option -- 'u'
+Try "psql --help" for more information.
+root@3f9fab127ca1:/# psql -U postgres
+psql (11.16 (Debian 11.16-1.pgdg90+1))
+Type "help" for help.
+
+postgres=# \l
+
+```
+- ```\l``` DB list 확인
+
+https://browndwarf.tistory.com/51
+
+
+<hr>
+
+
 # linux에서 관리자 권한 없이 docker실행시키기
 https://www.44bits.io/ko/post/easy-deploy-with-docker#:~:text=%EA%B4%80%EB%A6%AC%EC%9E%90%20%EA%B6%8C%ED%95%9C%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EA%B2%BD%EC%9A%B0,%EB%B6%99%EC%9D%B4%EB%A9%B4%20%EC%A0%95%EC%83%81%EC%A0%81%EC%9C%BC%EB%A1%9C%20%EC%8B%A4%ED%96%89%EB%90%A0%20%EA%B2%83%EC%9E%85%EB%8B%88%EB%8B%A4.&text=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%EC%97%90%EC%84%9C%EB%8F%84%20%EB%8F%84%EC%BB%A4%EB%A5%BC,%EA%B4%80%EB%A6%AC%EC%9E%90%20%EA%B6%8C%ED%95%9C%EC%9D%B4%20%ED%95%84%EC%9A%94%ED%95%A9%EB%8B%88%EB%8B%A4.&text=%EC%9D%B4%EC%A0%9C%20sudo%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%97%86%EC%9D%B4%EB%8F%84%20%EB%8F%84%EC%BB%A4%20%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A5%BC%20%EB%B0%94%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.
 
