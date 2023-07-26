@@ -20,12 +20,9 @@ sudo docker exec -it 3f9fab bash
   psql -U postgres
   ```
 
-- ```psql -u root -p```
+- ```psql -U postgres```
 
 ```
-oot@3f9fab127ca1:/# psql -u root -p
-/usr/lib/postgresql/11/bin/psql: invalid option -- 'u'
-Try "psql --help" for more information.
 root@3f9fab127ca1:/# psql -U postgres
 psql (11.16 (Debian 11.16-1.pgdg90+1))
 Type "help" for help.
