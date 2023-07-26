@@ -16,6 +16,9 @@ sudo docker exec -it 3f9fab bash
 ```
 
 - postgrsql 진입
+- ```
+  psql -U postgres
+  ```
 
 - ```psql -u root -p```
 
