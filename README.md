@@ -3,6 +3,16 @@
 
 <hr>
 
+- MySQL 도커 컨테이너 생성 및 실행
+```
+docker run --name mysql-sample-container -e MYSQL_ROOT_PASSWORD=<password> -d -p 3306:3306 mysql:{version}
+```
+
+- 현재 실행중인 도커 컨테이너 목록 출력
+```
+docker ps -a
+```
+
 - 도커 실행된거 확인
 
 ```
