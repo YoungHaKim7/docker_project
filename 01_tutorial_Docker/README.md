@@ -7,6 +7,9 @@ https://youtu.be/kTp5xUtcalw?si=dJS0wshYZPAfLmoK
 
 https://youtu.be/hWPv9LMlme8?si=-gdrfTFsJc1WRSbt
 
+# Linux에서 Docker run설치해서 Ubuntu가상환경 설치하기
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
 
 # Dockerfile Tutorial | Dockerfile Tutorial With Example | Dockerfile Explained | Simplilearn
 
