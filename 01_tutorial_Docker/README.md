@@ -1,6 +1,7 @@
 # 처음에 도커Docker ubuntu 이미지 만들기
 
 - https://lucas-owner.tistory.com/61
+- https://www.daleseo.com/docker-run/
 
 ```
 $ docker run -i -t --name first-ubuntu ubuntu /bin/bash
