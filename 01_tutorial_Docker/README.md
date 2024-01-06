@@ -1,3 +1,63 @@
+# 처음에 도커Docker ubuntu 이미지 만들기
+
+- https://lucas-owner.tistory.com/61
+
+```
+$ docker run -i -t --name first-ubuntu ubuntu /bin/bash
+```
+
+- 만든 이미지 리스트 확인
+- ```docker ps -a```
+
+- 내가 만든 이미지 들어가기(일단 멈춘 이미지 돌려주고)
+- ```docker start first-ubuntu```
+
+- 내가 만든 이미지 들어가기
+- ```docker run -it --name first-ubuntu ubuntu /bin/bash```
+
+
+```bash
+ docker ps -a
+CONTAINER ID   IMAGE     COMMAND       CREATED       STATUS                      PORTS     NAMES
+35695dc6a08d   ubuntu    "/bin/bash"   2 hours ago   Exited (0) 18 minutes ago             first-ubuntu
+
+$ docker run -it --name first-ubuntu /bin/bash
+docker: invalid reference format.
+See 'docker run --help'.
+
+$ docker run -it --name first-ubuntu ubuntu /bin/bash
+docker: Error response from daemon: Conflict. The container name "/first-ubuntu" is already in use by container "35695dc6a08d74e47f0463f920582e0c4a266f7ddb13c1f265d016f96640281c". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+$ docker start first-ubuntu
+first-ubuntu
+
+$ docker run -it --name first-ubuntu ubuntu /bin/bash
+docker: Error response from daemon: Conflict. The container name "/first-ubuntu" is already in use by container "35695dc6a08d74e47f0463f920582e0c4a266f7ddb13c1f265d016f96640281c". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+$ docker run -it --name first-ubuntu /bin/bash
+docker: invalid reference format.
+See 'docker run --help'.
+
+$ docker run -it first-ubuntu /bin/bash
+Unable to find image 'first-ubuntu:latest' locally
+docker: Error response from daemon: pull access denied for first-ubuntu, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+$ docker exec -it first-ubuntu /bin/bash
+root@35695dc6a08d:/# exit
+exit
+
+$ docker stop first-ubuntu
+first-ubuntu
+```
+
+- https://mungiyo.tistory.com/4
+
+<hr>
+
+
 # Docker Containers and Kubernetes Fundamentals – Full Hands-On Course | freeCodeCamp.org
 
 https://youtu.be/kTp5xUtcalw?si=dJS0wshYZPAfLmoK
