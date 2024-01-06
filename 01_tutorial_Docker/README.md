@@ -58,6 +58,12 @@ first-ubuntu
 
 - https://mungiyo.tistory.com/4
 
+# docker image 용량 체크
+
+```
+docker image ls
+```
+
 <hr>
 
 
