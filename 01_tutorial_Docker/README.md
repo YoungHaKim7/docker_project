@@ -15,6 +15,9 @@ $ docker run -i -t --name first-ubuntu ubuntu /bin/bash
 - 내가 만든 이미지 들어가기
 - ```docker run -it --name first-ubuntu ubuntu /bin/bash```
 
+- 다 끝나고 내 도커 실행 중지 하기
+- ```docker stop first-ubuntu```
+
 
 ```bash
  docker ps -a
