@@ -7,6 +7,8 @@ https://kicarussays.tistory.com/37
 
 # Docker image 삭제
 
+- ```docker rmi -f <IMAGE ID>```
+
 ```
 docker rmi -f 9exx7xxeeb
 Deleted: sha256:9exxxxfxexbdx3xxdxxx
