@@ -17,6 +17,7 @@ Deleted: sha256:9exxxxfxexbdx3xxdxxx
 
 https://docs.docker.com/engine/reference/commandline/image_rm/
 
+
 <hr>
 
 # 모든 도커 전부 멈추게 하기 & 전부 삭제
@@ -31,6 +32,8 @@ docker rm $(docker ps -a -q)
 ```
 
 - https://snowdeer.github.io/docker/2018/02/12/docker-stop-and-remove-all-containers/
+
+- https://ioflood.com/blog/docker-stop-all-containers-one-command-to-stop-and-or-remove-every-docker-container/
 
 # 처음에 도커Docker ubuntu 이미지 만들기
 
