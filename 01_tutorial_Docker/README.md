@@ -19,6 +19,19 @@ https://docs.docker.com/engine/reference/commandline/image_rm/
 
 <hr>
 
+# 모든 도커 전부 멈추게 하기 & 전부 삭제
+
+- Stop and Remove all Docker Container
+  - 모든 컨테이너를 Stop 하고 Remove 하는 방법입니다.
+
+```bash
+docker stop $(docker ps -a -q)
+
+docker rm $(docker ps -a -q)
+```
+
+- https://snowdeer.github.io/docker/2018/02/12/docker-stop-and-remove-all-containers/
+
 # 처음에 도커Docker ubuntu 이미지 만들기
 
 - https://lucas-owner.tistory.com/61
