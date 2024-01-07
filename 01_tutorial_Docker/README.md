@@ -1,3 +1,10 @@
+# 내가 만든 Docker Image도커에 올리기 
+
+
+https://kicarussays.tistory.com/37
+
+<hr>
+
 # 처음에 도커Docker ubuntu 이미지 만들기
 
 - https://lucas-owner.tistory.com/61
