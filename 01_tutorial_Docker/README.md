@@ -9,7 +9,7 @@ https://kicarussays.tistory.com/37
 
 ```
 docker rmi -f 9exx7xxeeb
-Deleted: sha256:a9xxxxfxexbdx3xxdxxx6b0e0fb64fd557a6f70f2
+Deleted: sha256:9exxxxfxexbdx3xxdxxx
 ```
 
 
