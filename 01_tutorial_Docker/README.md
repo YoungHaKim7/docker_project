@@ -5,6 +5,18 @@ https://kicarussays.tistory.com/37
 
 <hr>
 
+# Docker image 삭제
+
+```
+docker rmi -f 9exx7xxeeb
+Deleted: sha256:a9xxxxfxexbdx3xxdxxx6b0e0fb64fd557a6f70f2
+```
+
+
+https://docs.docker.com/engine/reference/commandline/image_rm/
+
+<hr>
+
 # 처음에 도커Docker ubuntu 이미지 만들기
 
 - https://lucas-owner.tistory.com/61
