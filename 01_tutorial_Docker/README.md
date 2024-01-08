@@ -1,6 +1,11 @@
 # 요즘 주로 쓰는거 
 
 ```bash
+// 만들어 진거 docker start하고 들어가면 됨. Good
+
+// docker stop 하면 다 정지
+$ docker $(docker ps -q)
+
 $ docker ps   
 CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS         PORTS     NAMES
 803b1e9d9012   ubuntu    "/bin/bash"   11 minutes ago   Up 9 minutes             ubuntu22_04
