@@ -1,3 +1,31 @@
+# 요즘 주로 쓰는거 
+
+```bash
+$ docker ps   
+CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS         PORTS     NAMES
+803b1e9d9012   ubuntu    "/bin/bash"   11 minutes ago   Up 9 minutes             ubuntu22_04
+
+$ docker exec -it \
+  ubuntu22_04 \
+  /bin/bash
+
+
+// 만들기(gpus 다 사용하기 )
+$ docker exec -it \       
+  --gpus all --name ubuntu22_04 ubuntu \
+  /bin/bash
+
+// https://github.com/TabbyML/tabby
+// 코드 AI 도커 실행(Tabby) 
+ docker run -it \                                                                                  
+  --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
+  tabbyml/tabby \
+  serve --model TabbyML/StarCoder-1B --device cuda
+
+```
+
+<hr>
+
 # 내가 만든 Docker Image도커에 올리기 
 
 
