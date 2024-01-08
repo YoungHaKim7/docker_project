@@ -4,7 +4,7 @@
 // 만들어 진거 docker start하고 들어가면 됨. Good
 
 // docker stop 하면 다 정지
-$ docker $(docker ps -q)
+$ docker stop $(docker ps -a -q)
 
 $ docker ps   
 CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS         PORTS     NAMES
