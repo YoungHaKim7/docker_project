@@ -29,6 +29,17 @@ $ docker exec -it \
 
 ```
 
+- ollama serve
+
+```
+docker run -it --gpus all --name ollama ubuntu /bin/bash
+
+docker start ollama
+
+docker exec ollama /bin/bash
+```
+
+
 <hr>
 
 # 내가 만든 Docker Image도커에 올리기 
