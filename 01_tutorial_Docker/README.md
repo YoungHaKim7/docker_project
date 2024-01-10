@@ -1,3 +1,13 @@
+# macOS
+
+```
+docker run -i -t --gpus all --name ubuntu22 ubuntu
+```
+
+- https://naviroe.tistory.com/12
+  
+<hr>
+
 # 요즘 주로 쓰는거 
 
 ```bash
