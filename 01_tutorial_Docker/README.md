@@ -11,6 +11,12 @@ docker run -i -t --gpus all --name ubuntu22 ubuntu
 # 요즘 주로 쓰는거 
 
 ```bash
+// Tabby 도커 실행 시키면 예전에 RUn한거 실행됨.
+docker start fdfdf
+fdfdf
+
+
+
 // 만들어 진거 docker start하고 들어가면 됨. Good
 
 // docker stop 하면 다 정지
