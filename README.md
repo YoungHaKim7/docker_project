@@ -1,3 +1,22 @@
+# Docker Tutorial for Beginners
+
+https://docker-curriculum.com/
+
+
+https://docker-curriculum.com/#docker-images
+
+- Tutorial
+  - Docker Tutorial for Beginners
+    - https://youtu.be/pTFZFxd4hOI
+
+  - 생활코딩 https://www.youtube.com/watch?v=Ps8HDIAyPD0&list=PLuHgQVnccGMDeMJsGq2O-55Ymtx0IdKWf&index=1
+    - https://opentutorials.org/course/4781
+
+  - Complete Docker Course - From BEGINNER to PRO! (Learn Containers)
+    - https://youtu.be/RqTEHSBrYFw
+
+<hr>
+
 # docker_project
 - A kernel manages applications and hardware resources.
 
@@ -60,21 +79,6 @@ https://browndwarf.tistory.com/51
 # linux에서 관리자 권한 없이 docker실행시키기
 https://www.44bits.io/ko/post/easy-deploy-with-docker#:~:text=%EA%B4%80%EB%A6%AC%EC%9E%90%20%EA%B6%8C%ED%95%9C%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EA%B2%BD%EC%9A%B0,%EB%B6%99%EC%9D%B4%EB%A9%B4%20%EC%A0%95%EC%83%81%EC%A0%81%EC%9C%BC%EB%A1%9C%20%EC%8B%A4%ED%96%89%EB%90%A0%20%EA%B2%83%EC%9E%85%EB%8B%88%EB%8B%A4.&text=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B3%84%EC%A0%95%EC%97%90%EC%84%9C%EB%8F%84%20%EB%8F%84%EC%BB%A4%EB%A5%BC,%EA%B4%80%EB%A6%AC%EC%9E%90%20%EA%B6%8C%ED%95%9C%EC%9D%B4%20%ED%95%84%EC%9A%94%ED%95%A9%EB%8B%88%EB%8B%A4.&text=%EC%9D%B4%EC%A0%9C%20sudo%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%97%86%EC%9D%B4%EB%8F%84%20%EB%8F%84%EC%BB%A4%20%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A5%BC%20%EB%B0%94%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.
 
-# Docker Tutorial for Beginners
-
-https://docker-curriculum.com/
-
-
-https://docker-curriculum.com/#docker-images
-
-- Tutorial
-  - Docker Tutorial for Beginners
-    - https://youtu.be/pTFZFxd4hOI
-
-  - 생활코딩 https://www.youtube.com/watch?v=Ps8HDIAyPD0&list=PLuHgQVnccGMDeMJsGq2O-55Ymtx0IdKWf&index=1
-    - https://opentutorials.org/course/4781
-
-<hr>
 
 <br>
 
