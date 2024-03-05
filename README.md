@@ -22,6 +22,15 @@ https://docker-curriculum.com/#docker-images
 
 <hr>
 
+
+<hr>
+
+# GN⁺: Kubernetes(쿠버네티스)를 싫어하는 이들을 위한 안내서 
+
+https://news.hada.io/topic?id=13637&utm_source=discord&utm_medium=bot&utm_campaign=1480
+
+- https://paulbutler.org/2024/the-haters-guide-to-kubernetes/
+
 #  Docker 명령어 정리된 사이트
 
 https://www.yalco.kr/36_docker/
