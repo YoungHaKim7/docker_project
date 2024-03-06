@@ -17,6 +17,11 @@ https://docker-curriculum.com/#docker-images
 
 <hr>
 
+# Rust로 만든 docker & podman 관리
+- https://github.com/reenigneEsrever92/contain-rs
+
+<hr>
+
 # docker_project
 - A kernel manages applications and hardware resources.
 
