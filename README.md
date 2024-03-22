@@ -12,6 +12,10 @@ https://docker-curriculum.com/#docker-images
   - 생활코딩 https://www.youtube.com/watch?v=Ps8HDIAyPD0&list=PLuHgQVnccGMDeMJsGq2O-55Ymtx0IdKWf&index=1
     - https://opentutorials.org/course/4781
 
+  - (1hr)Docker For Beginners: From Docker Desktop to Deployment | Travis Media
+    - https://youtu.be/i7ABlHngi1Q?si=JRyaXkD31q3JPPMX
+
+
   - Complete Docker Course - From BEGINNER to PRO! (Learn Containers)
     - https://youtu.be/RqTEHSBrYFw
 
